@@ -1,0 +1,103 @@
+html {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    margin-top: 100px;
+    text-align: center;
+    /* margin dirctions: top right bottom left */
+}
+
+header h1{
+    font-size: 3em;
+    font-weight: normal;
+}
+
+header h2{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.sec {
+    padding-left: 100px;
+}
+
+.sec h3{
+    font-size: 2em;
+} 
+
+.sec hr {
+    width: 250px;
+    margin:0px;
+    opacity: 0.5;
+}
+
+.my-name p{
+    color: #cecfc9;
+}
+
+.my-name p::first-letter{
+    font-size: 3em;
+    color: white;
+    /* margin-left: 20px; */
+}
+
+.progress {
+    height: 25px;
+    background-color: white;
+}
+
+.progress > div {
+    height: 100%;
+    /* width: 30%; */
+    background-color: gray;
+}
+
+.stats {
+    background-color: #ccc;
+    margin-top: 50px;
+    display: flex;
+}
+
+.stats > div {
+    flex:1;
+    color:#333;
+    padding: 50px ;
+    text-align: center;
+}
+
+.stats strong {
+    font-size: 2em;
+    display: block;
+}
+
+button {
+    padding: 17px 20px;
+    background: #ccc;
+    /* text-decoration: none; */
+    color: #000;
+    margin-top: 10px;
+}
+
+.btn a{
+    color: #000;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+form input , textarea{
+    width: 100%;
+    background-color: #FFF;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+.error {
+    color: red;
+}
