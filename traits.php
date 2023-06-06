@@ -7,6 +7,8 @@ trait Hello {
 trait World {
     public function sayHello() {
     echo 'World';
+
+    
     }
 }
 
@@ -24,3 +26,7 @@ public function sayExclamationMark() {
 $test = new MyHelloWorld;
 $test->sayHello();
 $test->World();
+
+function yes(){
+    echo "yes";
+}
