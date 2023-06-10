@@ -5,7 +5,7 @@ include("Loggable.php");
 
 
 use Loggable;
-use stdClass\Student;
+use students\Student;
 
 class Manager{
     use Loggable;
@@ -19,7 +19,7 @@ class Manager{
     }
 
     public function updateStudent(Student $student){
-        $this->students[$student->getName()] = $student;
+        $this->students[$student->getID()] = $student;
         
         $this->log("Added student id:{$student->getID()}  name:{$student->getName()}");
     }
@@ -32,11 +32,7 @@ class Manager{
 
         public function retriveStudent($id) {
         if (isset($this->students[$id])) {
-            // return $this->students[$id];
             $this->log("Retrieved student id:{$this->students[$id]->getID()} name:{$this->students[$id]->getName()} ");
-            // foreach ($this->students[$id]->getCourses() as $course) {
-            //     $this->log("Course: {$course->getName()} ") ;
-            // }
         }
         return null;
     }

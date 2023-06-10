@@ -1,5 +1,5 @@
 <?php
-namespace stdClass;
+namespace students;
 
 class Student{
     protected readonly string $ID;

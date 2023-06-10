@@ -2,6 +2,17 @@ Added student id:1  name:moath
 Added student id:2  name:ali
 Added student id:3  name:ahmead
 Retrieved student id:2 name:ali 
+Delete student id:1  name:moath
+Added student id:1  name:moath
+Added student id:2  name:ali
+Added student id:3  name:ahmead
+Retrieved student id:2 name:ali 
+Delete student id:1  name:moath
+Added student id:1  name:moath
+Added student id:2  name:ali
+Added student id:3  name:ahmead
+Retrieved student id:2 name:ali 
+Delete student id:1  name:moath
 Added student id:1  name:moath
 Added student id:2  name:ali
 Added student id:3  name:ahmead

@@ -7,7 +7,7 @@ include("Manager.php");
 
 use Courses\Course;
 use mangers\Manager;
-use stdClass\Student;
+use students\Student;
 
 $manager = new Manager();
 
@@ -27,6 +27,7 @@ $course3 = new Course("3", "html-css");
 $std1->setCourses($course1);
 $std2->setCourses($course2);
 $std3->setCourses($course3);
+// echo $std1->getName();
 
 $manager->addStudent($std1);
 $manager->addStudent($std2);
@@ -37,3 +38,7 @@ $manager->retriveStudent(2);
 
 //delete
 $manager->deleteStudent($std1);
+
+
+
+
