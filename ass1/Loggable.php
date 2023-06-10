@@ -8,6 +8,5 @@ trait Loggable
     private function log($message)
     {
         file_put_contents($this->dataFile, $message. "\n", FILE_APPEND);
-        // PHP_EOL == \n
     }
 }
